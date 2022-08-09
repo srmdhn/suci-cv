@@ -48,9 +48,8 @@ return (
         </div>
 
       <p>
-      Assalammualaikum, halo!, perkenalkan saya siswi dari jurusan Rekayasa Perangkat Lunak SMKN 1 KOTA BEKASI. Memiliki ketertarikan dengan dunia IT.
+      Assalammualaikum halo! lets introduce my self, saya adalah seorang siswi SMKN 1 kota bekasi dengan jurusan rekayasa perangkat lunak. Saya cukup aktif dalam bidang kepramukaan pada masa sekolah dasar dan smp, selain pramuka saya pernah mengikuti organisasi perpustakaan sekolah dan karang taruna sampai saat ini.
       </p>
-
       <a href="#contact" className='btn btn-primary'>Lets Talk</a>
     </div>
   </div>

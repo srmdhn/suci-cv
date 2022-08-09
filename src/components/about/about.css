@@ -45,8 +45,15 @@
     transition: var(--transition);
 }
 
+.about__card{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+    gap: 1.5rem;
+}
+
 .about__card:hover {
-    background: var(--color-white);
+    background: var(--color-light);
     color: var(--color-bg-);
     border-color: var(--color-primary-variant);
     cursor: default;

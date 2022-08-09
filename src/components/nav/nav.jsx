@@ -5,18 +5,21 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
 import {BiMessageSquareDetail} from 'react-icons/bi'
-import {useState} from 'react'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
-  const [activenav, setActivenav] = useState('#')
   return (
     <nav>
-      <a href="#" onClick={() =>setActivenav('#')} className={activenav === '#' ? 'active' : ''}><AiOutlineHome/></a>
-      <a href="#about" onClick={() =>setActivenav('#about')} className={activenav === 'about' ? 'active' : ''}><AiOutlineUser/></a>
-      <a href="#experience" onClick={() =>setActivenav('#experience')} className={activenav === 'experience' ? 'active' : ''}><BiBook/></a>
-      <a href="#services" onClick={() =>setActivenav('#services')} className={activenav === 'services' ? 'active' : ''}><RiServiceLine/></a>
-      <a href="#contact" onClick={() =>setActivenav('#contact')} className={activenav === 'contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
-      </nav>
+      <ul>
+        <li><Link to='/'> <AiOutlineHome className='rams'/> Home</Link></li>
+        <li><Link to='/about'> <AiOutlineUser className='rams'/> About</Link></li>
+        <li><Link to='/experience'> <BiBook className='rams'/> Experience</Link></li>
+        <li><Link to='/portfolio'> <RiServiceLine className='rams'/> Portfolio</Link></li>
+        <li><Link to='/contact'> <BiMessageSquareDetail className='rams'/> Contact</Link></li>
+        
+        
+      </ul>
+    </nav>
   )
 }
 

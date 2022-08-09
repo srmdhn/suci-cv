@@ -1,33 +1,45 @@
-nav {
-    background: rgba(0, 0, 0, 0.3);
-    width: max-content;
-    display: block;
-    padding: 0.7rem 1.7rem;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-bg-variant);
     z-index: 2;
     position: fixed;
-    left: 40%;
-    transform: translateX(-50);
-    bottom: 2rem;
-    display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
+    top: 0;
+    width: 100%;
 }
 
-nav a {
-    background: transparent;
-    padding: 0.9rem;
-    border-radius: 50%;
-    display: flex;
-    color: var(--color-light);
-    font-size: 1.1rem;
+.object {
+    font-size: 1rem;
 }
 
-nav a:hover {
-    background: rgba(0, 0, 0, 0.3);
+li {
+    font: left;
 }
 
-nav a:active {
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 12px 20px;
+}
+
+li a:hover {
     background: var(--color-bg);
-    color: var(--color-white);
+}
+
+/*============== MEDIA QUERTES (SMALL DEVICE) ============== */
+@media screen and (max-widht: 620px){
+    li a {
+     padding: 14px 18;
+     gap: 1rem;
+     font-size: 0.5rem;
+    }
+
+    .object{
+        font-size: 1rem;
+    }
 }

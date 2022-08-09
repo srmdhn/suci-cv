@@ -2,7 +2,7 @@ import React from 'react'
 import {FiInstagram} from 'react-icons/fi'
 import {AiOutlineMail} from 'react-icons/ai'
 
-const Headersocials = () => {
+const HeaderSocials = () => {
   return (
     <div className='header__socials'>
       <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FiInstagram/></a>
@@ -10,4 +10,4 @@ const Headersocials = () => {
     </div>
   )
 }
-export default Headersocials
+export default HeaderSocials
