@@ -10,6 +10,10 @@ header{
   position: relative;
 }
 
+.title {
+  padding-bottom: 1rem;
+}
+
 /*================ CTA =================== */
 .cta {
   margin-top: 2.5rem;
