@@ -8,7 +8,6 @@ import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-
 const App = () => {  
   const [annyeong, setAnnyeong] = useState('안녕하세요 여러분')
   const [rams, setRams] = useState('')
