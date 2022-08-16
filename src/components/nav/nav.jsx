@@ -40,7 +40,7 @@ const Nav = () => {
       </List>
       <Collapse in={open}>
 
-      <List sx={{ marginLeft: 25}}>
+      <List sx={{ marginLeft: 0}}>
         {array.map((listElm) => (
           <ListItem divider>
             <ListItemButton onClick={() => setOpen (true)}>

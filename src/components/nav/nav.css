@@ -1,12 +1,8 @@
 ul {
-    list-style-type: none;
+    display: grid;
     margin: 0;
     padding: 0;
     background-color: var(--color-bg-variant);
-    z-index: 2;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 .object {
@@ -22,7 +18,7 @@ li {
 }
 
 li a {
-    display: block;
+    display: inline-block;
     text-align: center;
     padding: 12px 20px;
 }
