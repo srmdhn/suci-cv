@@ -43,7 +43,7 @@ const Nav = () => {
       <List sx={{ marginLeft: 0}}>
         {array.map((listElm) => (
           <ListItem divider>
-            <ListItemButton onClick={() => setOpen (true)}>
+            <ListItemButton onClick={() => setOpen (false)}>
               <ListItemText primary={listElm} 
               />
             </ListItemButton>
